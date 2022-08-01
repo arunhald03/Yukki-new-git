@@ -110,10 +110,10 @@ clear
 pprint "\nEnter Your Values Below\n\n\n"
 pprint "API ID: "; color_reset; api_id ="11792103"
 pprint "\nAPI HASH: "; color_reset;  api_hash = "5a03ee0c82de3e8972dd46a66e039b01"
-pprint "\nBOT TOKEN: "; color_reset;  bot_token = "2144094143:AAH6aB63xHediITt3Ncn-WNILJVfxHK1JBY"
+pprint "\nBOT TOKEN: "; color_reset;  bot_token = "2144094143:AAF9dxtcpNKJCk1Knj4lwyfaZh0PeSQpU_w"
 pprint "\nMONGO DB URI: "; color_reset;  mongo_db = "MONGO_DB_URI = mongodb+srv://jefersonbp:palacio1@cluster0.z70uc.mongodb.net/jefersonbp?retryWrites=true&w=majority"
 pprint "\nLOG GROUP ID: "; color_reset;  logger = "-1001645899463"
-pprint "\nPYROGRAM STRING SESSION OF ASSISTANT ACCOUNT: "; color_reset;  string_session = "BQBHP6gJtbBCSrzqOlCcmOZ-IKcXMbMErb1g6PzqV5NoOv1UNZpqVGClueB2XjMS4gIb7JL0v9BJikAu63Nf2N_uoSGMbrWj_ZxrVU4G3yk-Ed4EBf8DQFqgln_kkOEuiYavzk8srcLvX-MACaOvMiRbKabRUekj_iOCuDis7zHvsksAo7qFKQQ_X9R-JQ_N0rd1w3UPa2OMUAalS7nRCGOaMKjFCYPmD_ZGJgKtTrZQPXcJRhiz8xmagB9TTMIQcL2XOFlWsjaCa44Oq4vAbgxW6iIsJQGTwGn032XXq9EuYfouaViWzx9ak4MNlmfmSKpXVEQofNg14Zj7Kj5h2mIJU1QFhQA"
+pprint "\nPYROGRAM STRING SESSION OF ASSISTANT ACCOUNT: "; color_reset;  string_session = "BQBh78NSG_MoF7EEhBhsgJ1lsu1kr4osRxEL0iXLA8NlCUyYeQNiZhIbeNmfvsNn5ZMz7obXDXbSCNkh8ubhdDJkSWvVTQwaXrB2sIy2wrYpzkWqlruQ9z4tBMgcLMPskMbXtZ0QVGlAmOVGLq5tP2s_UIP01vP5WgyduIsXiMNYBl9S3dGx8gnOHSMnoi6jCCNwX4SFFSgAax-kicMZXj1PDYIGfgJuI6NRTuYDqj_sWAq6iPM3Dt7qKig7AOU7zVHDbVfutSDHBsflMa6vOoHCuBbCPbfbTHb6rsBp8cggg5nYUu_2wFnP4z5u5pmPHTtUVJo1i4rIlRtfCoFOUhfjU1QFhQA"
 pprint "\nMUSIC BOT NAME: "; color_reset; read mbt
 pprint "\nOwner Id:"; color_reset;  ownid = "868753606 , 1930954213"
 
