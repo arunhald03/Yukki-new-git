@@ -21,14 +21,14 @@ API_ID = int(getenv("API_ID", "11792103"))
 API_HASH = getenv("API_HASH","5a03ee0c82de3e8972dd46a66e039b01")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","2144094143:AAF9dxtcpNKJCk1Knj4lwyfaZh0PeSQpU_w")
+BOT_TOKEN = getenv("BOT_TOKEN", "mongodb+srv://Arunkumar:arunhald@cluster0.n5oxsxc.mongodb.net/?retryWrites=true&w=majority")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://jefersonbp:palacio1@cluster0.z70uc.mongodb.net/jefersonbp?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Arunkumar:arunhald@cluster0.n5oxsxc.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "60")
+    getenv("DURATION_LIMIT", "500")
 )  # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
@@ -44,7 +44,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","TQ")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "868753606 1930954213").split())
+    map(int, getenv("OWNER_ID", "868753606").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -103,8 +103,8 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 GITHUB_REPO = getenv("GITHUB_REPO", None)
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "9da28a3704e4415d829130fba11998ee")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "6805529cbf0d4f59b56ead1620081420")
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
@@ -136,7 +136,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 STRING1 = getenv("STRING_SESSION", "BQBh78NSG_MoF7EEhBhsgJ1lsu1kr4osRxEL0iXLA8NlCUyYeQNiZhIbeNmfvsNn5ZMz7obXDXbSCNkh8ubhdDJkSWvVTQwaXrB2sIy2wrYpzkWqlruQ9z4tBMgcLMPskMbXtZ0QVGlAmOVGLq5tP2s_UIP01vP5WgyduIsXiMNYBl9S3dGx8gnOHSMnoi6jCCNwX4SFFSgAax-kicMZXj1PDYIGfgJuI6NRTuYDqj_sWAq6iPM3Dt7qKig7AOU7zVHDbVfutSDHBsflMa6vOoHCuBbCPbfbTHb6rsBp8cggg5nYUu_2wFnP4z5u5pmPHTtUVJo1i4rIlRtfCoFOUhfjU1QFhQA")
-STRING2 = getenv("STRING_SESSION2", None)
+STRING2 = getenv("STRING_SESSION2","BQBsoYbgYlirskQXJjqBm-b9OGz3RlsqJIO8HSDZo3PpsDQ-IwmiHXt0zHb_sbpY-q-g0qDiSFe7QHDRke1tEdDQr4AEY_8kNnB5pGha8pTG0YO5TNspy4VeZZ27ZRyszt0dzTAMuoOSeQ91fFqAgldARTJ8cEFBiCMnfiONUFJEsEJ__3LcBo5jsrT1T-bERD6ZQK_w-uARPm9OMz6vaKiJkVNyHgQeQcGCjv1K2XfUX8w0tEDaNl_j2LpZjf2HHVR638M1yR5pX8WCuOyQNisKQUYZ2fA_ay_7mUCkkgcdM3lBzdrkRoD_afIl_H--ICSEr0PbqY4CxVzb9qvHineiAAAAAS2xfIAA")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
